@@ -75,7 +75,6 @@ def fil_ty_fi():
 def di_fi():
     global Pat_Src
     Pat_Src = os.path.dirname(os.path.abspath(sys.argv[0]))
-    #Pat_Src = r"F:\Programs Files\Setup Files Programs\Test"  # Deleted
     try:
         with os.scandir(Pat_Src) as files:
             for Files in files:
